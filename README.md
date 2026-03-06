@@ -59,7 +59,7 @@ automationexercise-cypress-bdd/
 
 ```bash
 git clone <URL_DEL_REPOSITORIO>
-cd automationexercise-cypress-bdd
+
 
 npm install
 
