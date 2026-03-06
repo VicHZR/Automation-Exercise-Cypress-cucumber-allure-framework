@@ -1,0 +1,42 @@
+{
+  "name": "evaluacion_bcp",
+  "version": "1.0.0",
+  "description": "AutomationExercise - Login Regression (Cypress + Cucumber + POM + Allure + CI)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run",
+    "allure:generate": "allure generate --clean allure-results -o allure-report",
+    "allure:open": "allure open allure-report",
+    "cy:run:allure": "cypress run && npm run allure:generate && npm run allure:open",
+
+    "test:chrome": "cypress run --browser chrome",
+    "test:edge": "cypress run --browser edge",
+    "test:firefox": "cypress run --browser firefox",
+    "parallel": "run-p test:chrome test:edge test:firefox"
+  },
+  "overrides": {
+    "glob": "^11.0.0"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "bdd",
+    "allure",
+    "poc",
+    "automation"
+  ],
+  "author": "Victor",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.37.0",
+    "cypress": "^15.11.0",
+    "esbuild": "^0.27.3",
+    "npm-run-all": "^4.1.5"
+  }
+}

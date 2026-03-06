@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6862","Preparar usuario de pruebas","","2026-03-06","passed","2026-03-06","","Login - Pruebas de regresresión","",""
+"","5794","Login exitoso","","2026-03-06","passed","2026-03-06","","Login - Pruebas de regresresión","",""
+"","4022","Login con usuario y contraseña incorrectos","","2026-03-06","passed","2026-03-06","","Login - Pruebas de regresresión","",""
+"","4023","Login con usuario incorrecto","","2026-03-06","passed","2026-03-06","","Login - Pruebas de regresresión","",""
+"","4292","Login con contraseña incorrecta","","2026-03-06","passed","2026-03-06","","Login - Pruebas de regresresión","",""
