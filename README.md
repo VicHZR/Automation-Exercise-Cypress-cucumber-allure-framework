@@ -119,5 +119,6 @@ en el package.json agregar los siguientes scripts:
 npm run parallel
 
 🧑‍💻 Autor
-Proyecto automatizado por Victor
+Proyecto automatizado por Victor Guzmán
+
 Tecnologías: Cypress · Cucumber · POM · Allure · GitHub Actions
