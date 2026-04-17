@@ -27,6 +27,7 @@ Todos validan con aserciones y usan POM.
 
 ---
 
+```text
 ## 📁 **Estructura del Proyecto**
 
 automationexercise-cypress-bdd/
