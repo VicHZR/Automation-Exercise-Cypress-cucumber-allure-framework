@@ -30,63 +30,61 @@ Todos validan con aserciones y usan POM.
 ```text
 ## 📁 **Estructura del Proyecto**
 
+
 automationexercise-cypress-bdd/
-│── cypress/
+├── cypress/
 │   ├── e2e/
-│   │   └── login/
-│   │        ├── login.feature
-│   │        └── login.js
+│   │   ├── login/
+│   │   │   ├── login.feature
+│   │   │   └── login.js
 │   ├── pages/
-│   │    ├── HomePage.js
-│   │    ├── SignupLoginPage.js
-│   │    ├── SignupFormPage.js
-│   │    ├── AccountCreatedPage.js
-│   │    └── DashboardPage.js
-│   └── support/
-│        ├── e2e.js
-│        └── commands.js
-│── cypress.config.js
-│── package.json
-│── README.md
-│── .github/
-│    └── workflows/
-│         └── cypress-allure.yml
-
+│   │   ├── HomePage.js
+│   │   ├── SignupLoginPage.js
+│   │   └── DashboardPage.js
+│   ├── support/
+│   │   ├── e2e.js
+│   │   └── commands.js
+├── cypress.config.js
+├── package.json
+├── README.md
+└── .github/
+    └── workflows/
+        └── cypress-allure.yml
 ---
-
+```
 ## 🛠️ **Instalación**
 
 1. Clona el repositorio:
 
 ```bash
 git clone <URL_DEL_REPOSITORIO>
-
+```
 
 npm install
 
 🚀 Ejecución de Pruebas
 
 ▶️ Con interfaz gráfica
-
+```
 npm run cy:open
-
+```
 ⚡ Headless (sin interfaz)
-
+```
 npm run cy:run
-
+```
 🧾 Allure Reports
 🔨 Generar reporte Allure localmente
-
+```
 npm run allure:generate
-
+```
 👀 Abrir reporte Allure
-
+```
 npm run allure:open
-
+```
 Ejecutar Cypress + generar + abrir Allure
-
+```
 npm run cy:run:allure
-
+```
 allure-results/
 allure-report/
 
@@ -106,7 +104,9 @@ El workflow se encuentra en:
 .github/workflows/cypress-allure.yml
 
 Para correr en varios navegdores se tiene que instalar
+```
 npm i -D npm-run-all
+```
 en el package.json agregar los siguientes scripts:
 
 "scripts": {
